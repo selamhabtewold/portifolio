@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selam's portifolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portifolio">Portifolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1> Hi, I'm <span>Selam</span> <br> Habtewold</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--    ....about section....-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/prof.JPG" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am an energetic, ambitious and a goal oriented person who has developed a mature and
+                        responsible approach to any task that I understake or situation that I'm presented with.
+                        I'm excellent in working with others to achive a certain objective on time.
+                        Moreover I'm a Passionate individual who is personable and friendly when interacting with others
+                        and
+                        can work well under pressure to make the best of any situation.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclik="opentab('skills')">Education</p>
+                        <p class="tab-links" onclick="opentab('education')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Projects</p>
+                        <p class="tab-links" onclick="opentab('certification')">Certifications</p>
+
+                    </div>
+
+                    <!--contents under Education-->
+
+                    <div class="tab-contents active-tab" id="skills">
+
+                        <ul>
+                            <li><span>Marwadi University</span><br>Bachelor of Technology : Computer Enginnering
+                                <br>2021-2025<br>Rajkot,India
+                            </li>
+
+                            <li><span>Lebawi Academy</span><br>Highschool Diploma
+                                <br>2016-2020<br> Addis Ababa, Ethiopia
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <!--contents under skills-->
+
+                    <div class="tab-contents" id="education">
+
+                        <ul>
+                            <li><span> Hard Skills</span><br><b>Web Development:</b> Front-end web development: HTML5,
+                                CSS3, Javascript</li>
+                            <li><b>Java programming:</b> Java core and advanced java programming</li>
+                            <li><b>Web Designing: </b> Website designing with a great user interface for a better user
+                                experience</li>
+                            <li><span>Soft skills</span></li>
+                            <li>Strong communication</li>
+                            <li>Analytical and Problem solving</li>
+                            <li>Design and Art</li>
+                            <li>Project Management</li>
+
+                        </ul>
+                    </div>
+
+                    <!--contents under experience-->
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Smart Home Automation System</span><br> It is an
+                                exceptional project on home automation, which incorporates a smart watering system, clap
+                                switching,
+                                laser fence detector system, and automatic fan. Got awarded a certificate in recognition
+                                of participation in the Intellify Hackathon 1.0 and reaching the final round.</li>
+                            <li><span>Airline Reservation System</span><br>It's a system by which customers can book a
+                                ticket remotely from any where. It's done by java swing and mysql database for the
+                                backend.</li>
+                            <li><span>Student Management System</span><br>A C++ based system has been developed to
+                                enable teachers to manage student details easily and effortlessly.</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="certification">
+                        <ul>
+                            <li>
+                                <span>Coursera: Mitchegan University </span><br>
+                                <dd>Programming for Everybody (Getting Started with
+                                    Python)
+                                </dd>
+                                <dd>Python for Data Structures</dd>
+                                <br>
+                                <span>Oracle Academy</span>
+                                <dd>Oracle Database Management with SQL</dd>
+                                <br>
+                                <span>Cisco Networking Academy</span><br>
+                                <dd>Linux Essentials Professional Development
+                                    Certificate
+                                </dd>
+                                <dd>Switching, Routing, and Wireless Essentials</dd>
+                                <dd>Python Essentials 1</dd><br>
+
+
+                                <span>Suvidha Foundation (Suvidha Mahila Mandal)
+                                </span><br>
+                                <dd>Certificate of participation, June 2023</dd>
+                                <dd>
+                                    Presented to acknowledge the successful completion of a one-week content writing
+                                    program focused on
+                                    the integration of coding and kids' education.
+                                </dd>
+
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--       services                             -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <!-- first column-->
+                <div>
+                    <h2>Website Designing</h2>
+                    <br>
+                    <p>Stunning Web Design: Elevate the online presence with our cutting-edge web design service. From
+                        captivating visuals to seamless user experiences.</p>
+                </div>
+                <!-- second column-->
+                <div>
+                    <h2>Web Applications</h2>
+                    <br>
+                    <p>Unlock the power of seamless connectivity and enhanced productivity with our cutting-edge web
+                        applications service. </p>
+
+                </div>
+                <!-- third column-->
+                <div>
+                    <h2>App design</h2>
+                    <br>
+                    <p>From concept to launch, our expert team crafts seamless and innovative mobile applications that
+                        elevate user experiences and drive growth. </p>
+
+                </div>
+            </div>
+        </div>
+
+        <!--............portifolio.........-->
+
+        <div id="portifolio">
+            <div class="container">
+                <h1 class="subtitle">My works</h1>
+                <div class="worklist">
+
+                    <div class="work">
+                        <img src="images/weatherApp.png" />
+                        <div class="layer">
+                            <h3>Weather App</h3>
+                            <p>This is an app that tells the exact weather status of any place based on the input city.
+                                It uses the open weather api to fetch data.</p>
+
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/todo.png" />
+                        <div class="layer">
+                            <h3>A todo List</h3>
+                            <p>This is a simple todolist where we can save out tasks along with due date to each task. We can delete anytask that has been done just by clicking the corresponding delete button.</p>
+
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/calc.png" />
+                        <div class="layer">
+                            <h3>Calculator</h3>
+                            <p>It's an application developed using htm,css and javascript for the backend. It can
+                                performs basic operations. </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ....contact section....-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>selamhabtsh09@gmail.com</p>
+                        <div class="social-icons">
+                            <a href="https://www.pinterest.com/selamhabtewold/"><i
+                                    class="fa-brands fa-pinterest"></i></a>
+                            <a href="https://www.instagram.com/jammy__me/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://in.linkedin.com/in/selam-habtewold-328b25240"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/selamina.gebremariam"><i
+                                    class="fa-brands fa-square-facebook"></i></a>
+                        </div>
+                        <a href="resume.txt" class="btn btn2" download>Download CV</a>
+                    </div>
+
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright <i class="fa-regular fa-copyright"></i> Selam_z_Habtewold</p>
+            </div>
+        </div>
+
+
+
+
+        <script src="main.js"></script>
+        <script src="https://kit.fontawesome.com/77ce258197.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
