@@ -15,3 +15,8 @@ Feel free to explore and reach out through the contact page!
 
 ![image](https://github.com/selamhabtewold/portifolio/assets/125498535/53eda98b-c4f2-4bcc-9978-35f4806fd645)
 
+![image](https://github.com/selamhabtewold/portifolio/assets/125498535/d6fa0787-68ba-4b3d-ae52-234214176805)
+
+
+# For more details: 
+Navigate through this link: https://myp0rtifolio.netlify.app/
